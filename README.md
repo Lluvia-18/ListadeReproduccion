@@ -37,14 +37,22 @@ Completar el código de una lista doblemente enlazada para insertar canciones al
 **1. Inserción al final**
 
 Se creó un nuevo nodo para guardar la canción. Si la lista estaba vacía, el nodo se asignó tanto a la cabeza como a la cola. Si ya existían canciones, se enlazó el último nodo con el nuevo y se actualizó la cola.
+<img width="1902" height="1085" alt="Reto1-ejecucion" src="https://github.com/user-attachments/assets/e473245f-1569-4239-9593-f3ac658eb67d" />
+<img width="1920" height="1200" alt="Reto1-compilacion" src="https://github.com/user-attachments/assets/f0570624-0634-4177-9b41-bbb89ea32ab4" />
+
 
 **2. Inserción después de una canción**
 
 Primero se recorrió la lista para encontrar la canción indicada. Si se encontró, se creó el nuevo nodo y se actualizaron las referencias `anterior` y `siguiente` para colocarlo después de la canción existente. Si la canción indicada era la última, también se actualizó la cola.
+<img width="1896" height="1086" alt="Reto2- ejecucion" src="https://github.com/user-attachments/assets/c4a50212-12ff-49d3-ba6f-9003dd638cd6" />
+<img width="1892" height="1022" alt="Reto2- compilacion" src="https://github.com/user-attachments/assets/85a262e0-b1a7-4158-96f1-f36566e59c20" />
+
 
 **3. Recorrido inverso**
 
 Para mostrar las canciones en orden inverso, se comenzó desde la cola y se avanzó utilizando la referencia `anterior` hasta llegar a `null`.
+<img width="1917" height="1067" alt="Reto3-ejecucion" src="https://github.com/user-attachments/assets/a4169021-2a05-438a-a92b-c68aaa7908aa" />
+<img width="1600" height="808" alt="Reto3-compilacion" src="https://github.com/user-attachments/assets/5a8d24a1-0347-4081-83d3-68d59bce5ed2" />
 
 ### Pruebas realizadas
 
@@ -55,13 +63,6 @@ Para mostrar las canciones en orden inverso, se comenzó desde la cola y se avan
 - Se insertó una canción después de la última para comprobar la actualización de la cola.
 - Se intentó insertar una canción después de una que no existe.
 - Se comprobó el funcionamiento con
-
-<img width="1917" height="1067" alt="Reto3-ejecucion" src="https://github.com/user-attachments/assets/a4169021-2a05-438a-a92b-c68aaa7908aa" />
-<img width="1600" height="808" alt="Reto3-compilacion" src="https://github.com/user-attachments/assets/5a8d24a1-0347-4081-83d3-68d59bce5ed2" />
-<img width="1896" height="1086" alt="Reto2- ejecucion" src="https://github.com/user-attachments/assets/c4a50212-12ff-49d3-ba6f-9003dd638cd6" />
-<img width="1892" height="1022" alt="Reto2- compilacion" src="https://github.com/user-attachments/assets/85a262e0-b1a7-4158-96f1-f36566e59c20" />
-<img width="1902" height="1085" alt="Reto1-ejecucion" src="https://github.com/user-attachments/assets/e473245f-1569-4239-9593-f3ac658eb67d" />
-<img width="1920" height="1200" alt="Reto1-compilacion" src="https://github.com/user-attachments/assets/f0570624-0634-4177-9b41-bbb89ea32ab4" />
 
 
 
